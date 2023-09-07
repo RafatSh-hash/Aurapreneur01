@@ -1,0 +1,19 @@
+
+.hover-info {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    /* padding: 10px; */
+    width: 70%;
+    border-radius: 30px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+
+ul li:hover .hover-info {
+    display: block;
+}
+
