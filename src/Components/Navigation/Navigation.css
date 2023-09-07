@@ -1,5 +1,6 @@
 .hover-info {
     display: none;
+    opacity: 0.5;
     position: absolute;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -9,11 +10,13 @@
     z-index: 1;
     left: 50%;
     transform: translateX(-50%);
+    transition: opacity 0.5s ease-in-out;
 }
 
 
 ul li:hover .hover-info {
     display: block;
+    opacity: 1;
 }
 
 .hover-info-small {
