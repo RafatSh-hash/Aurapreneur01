@@ -1,4 +1,3 @@
-
 .hover-info {
     display: none;
     position: absolute;
@@ -9,7 +8,7 @@
     border-radius: 30px;
     z-index: 1;
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
 }
 
 
@@ -17,3 +16,20 @@ ul li:hover .hover-info {
     display: block;
 }
 
+.hover-info-small {
+    display: none;
+    /* position: absolute; */
+    /* background-color: #fff; */
+    /* border: 1px solid #ccc; */
+    /* padding: 10px; */
+    width: 100%;
+    border-radius: 30px;
+    z-index: 1;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+}
+
+
+ul li:hover .hover-info-small {
+    display: block;
+}
