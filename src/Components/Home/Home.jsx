@@ -1,9 +1,11 @@
 import React from 'react';
+import banner from "../../assets/Images/banner1.jpg"
+import Banner from './Banner/Banner';
 
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <Banner></Banner>
         </div>
     );
 };
