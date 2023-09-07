@@ -5,6 +5,7 @@ import start from "../../assets/Icons/start.png";
 import sell from "../../assets/Icons/sell.png";
 import market from "../../assets/Icons/market.png";
 import manage from "../../assets/Icons/manage.png";
+import signIn from "../../assets/Icons/signIn.png"
 
 const Navigation = () => {
 
@@ -378,10 +379,10 @@ const Navigation = () => {
                     </div>
 
                     <div className="hidden sm:block  md:flex lg:flex items-center justify-center" >
-                        <button className="border-2 border-orange-400 transition-all duration-500 hover:scale-105 hover:bg-white text-black py-2 px-3 rounded-md" type="submit">
+                        <button className="border-2 border-white transition-all duration-500 hover:scale-105 hover:bg-white text-black py-2 px-3 rounded-md" type="submit">
                             <div className="flex justify-evenly items-center w-32">
                                 <div className="w-6 h-6 rounded-full me-2">
-                                    <img src="" className="w-full h-full" alt="" />
+                                    <img src={signIn} className="w-full h-full" alt="" />
                                 </div>
                                 <p className="text-base font-semibold">Sign Up</p>
                             </div>
@@ -399,7 +400,198 @@ const Navigation = () => {
                     <ul className="bg-white py-2 px-4 text-left">
                         <li className='block py-2 font-semibold text-black w-32 my-3'>
                             Solutions
-                            <div className="hover-info-small text-black">This is Solutions information.</div>
+                            <div className="hover-info-small">
+                                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 w-full'>
+                                    <div>
+                                        <div className='flex flex-row justify-center items-center py-3'>
+                                            <div className='w-14 h-14 rounded-full'>
+                                                <img src={start} className='w-full h-full ' alt="" />
+                                            </div>
+                                            <h1 className='text-xl mx-5'>Start</h1>
+                                        </div>
+                                        <hr className='my-3' />
+                                        <div className='p-5'>
+                                            <ul className='text-black'>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Start Your Business</h1></a>
+                                                    <a href="#"><p className='text-sm'>Build Your Brand</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Create Your Website</h1></a>
+                                                    <a href="#"><p className='text-sm'>Online store editor</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Customize Your Store</h1></a>
+                                                    <a href="#"><p className='text-sm'>Store themes</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+                                                    <a href="#"><p className='text-sm'>Shopify App store</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Own your site domain</h1></a>
+                                                    <a href="#"><p className='text-sm'>Domains & Hosting</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+                                                    <a href="#"><p className='text-sm'>Tools to run your business</p></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className='flex flex-row justify-center items-center py-3'>
+                                            <div className='w-14 h-14 rounded-full'>
+                                                <img src={sell} className='w-full h-full ' alt="" />
+                                            </div>
+                                            <h1 className='text-xl mx-5'>Sell</h1>
+                                        </div>
+                                        <hr className='my-3' />
+                                        <div className='p-5'>
+                                            <ul className='text-black'>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Start Your Business</h1></a>
+                                                    <a href="#"><p className='text-sm'>Build Your Brand</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Create Your Website</h1></a>
+                                                    <a href="#"><p className='text-sm'>Online store editor</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Customize Your Store</h1></a>
+                                                    <a href="#"><p className='text-sm'>Store themes</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+                                                    <a href="#"><p className='text-sm'>Shopify App store</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Own your site domain</h1></a>
+                                                    <a href="#"><p className='text-sm'>Domains & Hosting</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+                                                    <a href="#"><p className='text-sm'>Tools to run your business</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+                                                    <a href="#"><p className='text-sm'>Shopify App store</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Own your site domain</h1></a>
+                                                    <a href="#"><p className='text-sm'>Domains & Hosting</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+                                                    <a href="#"><p className='text-sm'>Tools to run your business</p></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className='flex flex-row justify-center items-center py-3'>
+                                            <div className='w-14 h-14 rounded-full'>
+                                                <img src={market} className='w-full h-full ' alt="" />
+                                            </div>
+                                            <h1 className='text-xl mx-5'>Market</h1>
+                                        </div>
+                                        <hr className='my-3' />
+                                        <div className='p-5'>
+                                            <ul className='text-black'>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Start Your Business</h1></a>
+                                                    <a href="#"><p className='text-sm'>Build Your Brand</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Create Your Website</h1></a>
+                                                    <a href="#"><p className='text-sm'>Online store editor</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Customize Your Store</h1></a>
+                                                    <a href="#"><p className='text-sm'>Store themes</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+                                                    <a href="#"><p className='text-sm'>Shopify App store</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Own your site domain</h1></a>
+                                                    <a href="#"><p className='text-sm'>Domains & Hosting</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+                                                    <a href="#"><p className='text-sm'>Tools to run your business</p></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className='flex flex-row justify-center items-center py-3'>
+                                            <div className='w-14 h-14 rounded-full'>
+                                                <img src={manage} className='w-full h-full ' alt="" />
+                                            </div>
+                                            <h1 className='text-xl mx-5'>Manage</h1>
+                                        </div>
+                                        <hr className='my-3' />
+                                        <div className='p-5'>
+                                            <ul className='text-black'>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Start Your Business</h1></a>
+                                                    <a href="#"><p className='text-sm'>Build Your Brand</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Create Your Website</h1></a>
+                                                    <a href="#"><p className='text-sm'>Online store editor</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Customize Your Store</h1></a>
+                                                    <a href="#"><p className='text-sm'>Store themes</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+                                                    <a href="#"><p className='text-sm'>Shopify App store</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Own your site domain</h1></a>
+                                                    <a href="#"><p className='text-sm'>Domains & Hosting</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+                                                    <a href="#"><p className='text-sm'>Tools to run your business</p></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                {/* <hr />
+                                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 bg-gray-100 rounded-bl-[50px] rounded-br-[50px]'>
+
+                                    <div className='border-2 rounded-bl-2xl  rounded-tl-2xl border-r-gray-400 text-black border-l-gray-100 border-t-gray-100 border-b-gray-100 p-5'>
+                                        <h1 className='text-xl'>Aurapreneur Developers</h1>
+                                        <p>Build with our powerfull API's</p>
+                                    </div>
+
+
+                                    <div className='border-2 border-r-gray-400 text-black border-l-gray-100 border-t-gray-100 border-b-gray-100 p-5'>
+                                        <h1 className='text-xl'>Aurapreneur Developers</h1>
+                                        <p>Build with our powerfull API's</p>
+                                    </div>
+
+                                    <div className='border-2 border-r-gray-400 text-black border-l-gray-100 border-t-gray-100 border-b-gray-100 p-5'>
+                                        <h1 className='text-xl'>Aurapreneur Developers</h1>
+                                        <p>Build with our powerfull API's</p>
+                                    </div>
+
+                                    <div className='border-2 rounded-br-2xl  rounded-tr-2xl text-black border-l-gray-100 border-t-gray-100 border-b-gray-100 p-5'>
+                                        <h1 className='text-xl'>Aurapreneur Developers</h1>
+                                        <p>Build with our powerfull API's</p>
+                                    </div>
+
+                                </div> */}
+                            </div>
                         </li>
                         <li className='block py-2 font-semibold text-black w-32 my-3'>
                             Pricing
@@ -407,13 +599,142 @@ const Navigation = () => {
                         </li>
                         <li className='block py-2 font-semibold text-black w-32 my-3'>
                             Resources
-                            <div className="hover-info-small">This is Resources information.</div>
+                            <div className="hover-info-small rounded-2xl">
+                                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5'>
+                                    <div className='p-5'>
+                                        <div className='flex flex-row justify-start items-center'>
+                                            <div className='w-14 h-14 rounded-full'>
+                                                <img src={start} className='w-full h-full ' alt="" />
+                                            </div>
+                                            <h1 className='text-xl mx-5'>Start</h1>
+                                        </div>
+                                        <hr className='my-3' />
+                                        <div className='p-5'>
+                                            <ul className='text-black'>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Start Your Business</h1></a>
+                                                    <a href="#"><p className='text-sm'>Build Your Brand</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Create Your Website</h1></a>
+                                                    <a href="#"><p className='text-sm'>Online store editor</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Customize Your Store</h1></a>
+                                                    <a href="#"><p className='text-sm'>Store themes</p></a>
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+                                                    <a href="#"><p className='text-sm'>Shopify App store</p></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className=' p-5'>
+                                        <div className='flex flex-row justify-start items-center '>
+                                            <div className='w-14 h-14 rounded-full'>
+                                                <img src={sell} className='w-full h-full ' alt="" />
+                                            </div>
+                                            <h1 className='text-xl mx-5'>Sell</h1>
+                                        </div>
+                                        <hr className='my-3' />
+                                        <div className='p-5'>
+                                            <ul className='text-black '>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Start Your Business</h1></a>
+                                                    <a href="#"><p className='text-sm'>Build Your Brand</p></a>
+                                                </li>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Create Your Website</h1></a>
+                                                    <a href="#"><p className='text-sm'>Online store editor</p></a>
+                                                </li>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Customize Your Store</h1></a>
+                                                    <a href="#"><p className='text-sm'>Store themes</p></a>
+                                                </li>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+                                                    <a href="#"><p className='text-sm'>Shopify App store</p></a>
+                                                </li>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Own your site domain</h1></a>
+                                                    <a href="#"><p className='text-sm'>Domains & Hosting</p></a>
+                                                </li>
+
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+                                                    <a href="#"><p className='text-sm'>Tools to run your business</p></a>
+                                                </li>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+                                                    <a href="#"><p className='text-sm'>Shopify App store</p></a>
+                                                </li>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Own your site domain</h1></a>
+                                                    <a href="#"><p className='text-sm'>Domains & Hosting</p></a>
+                                                </li>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+                                                    <a href="#"><p className='text-sm'>Tools to run your business</p></a>
+                                                </li>
+                                                <li className='my-3 '>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+                                                    <a href="#"><p className='text-sm'>Tools to run your business</p></a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className='bg-gray-200  rounded-br-2xl rounded-tr-2xl'>
+                                        <div className='flex flex-row justify-start items-center p-5'>
+                                            <div className='w-14 h-14 rounded-full'>
+                                                <img src={market} className='w-full h-full ' alt="" />
+                                            </div>
+                                            <h1 className='text-xl mx-5'>Market</h1>
+                                        </div>
+                                        <hr className='my-3' />
+                                        <div className='p-5'>
+                                            <ul className='text-black'>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Start Your Business</h1></a>
+
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Create Your Website</h1></a>
+
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Customize Your Store</h1></a>
+
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Find Business Apps</h1></a>
+
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Own your site domain</h1></a>
+
+                                                </li>
+                                                <li className='my-3'>
+                                                    <a href="#"><h1 className='text-xl'>Explore free business tools</h1></a>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
                         </li>
                         <li>
-                            <button className="border-2 border-orange-400 transition-all duration-500 hover:scale-105 hover:bg-white text-black py-2 px-3 rounded-md" type="submit">
+                            <button className="border-2 border-black transition-all duration-500 hover:scale-105 hover:bg-white text-black py-2 px-3 rounded-md" type="submit">
                                 <div className="flex justify-evenly items-center w-36">
                                     <div className="w-6 h-6 rounded-full me-2">
-                                        <img src="" className="w-full h-full" alt="" />
+                                        <img src={signIn} className="w-full h-full" alt="" />
                                     </div>
                                     <p className="text-base font-semibold">Sign Up</p>
                                 </div>
