@@ -21,7 +21,7 @@ const Navigation = () => {
 
 
     return (
-        <div className=" w-full py-2">
+        <div className="bg-transparent w-full py-2">
             <div className=" mx-auto px-4 py-2 sm:px-6 lg:px-8">
                 <nav className="flex items-center justify-between">
                     <div className="flex-shrink-0">
