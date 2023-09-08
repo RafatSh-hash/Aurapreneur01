@@ -2,6 +2,7 @@ import Lottie from 'lottie-react';
 import React from 'react';
 import worldCompanies from "../../../assets/LottieFiles/WC1.json"
 import Blob from './Blob';
+import Explore from './Explore/Explore';
 
 const Discover = () => {
     return (
@@ -30,6 +31,9 @@ const Discover = () => {
             </div>
         </div>
         <h1 className="text-2xl md:text-3xl lg:text-4xl p-2 text-center font-semibold text-white">Worldwide operations success rate <span className='bg-gradient-to-r from-[#e4f6f6] via-[#cfebfe] to-[#f0edfe] rounded-md p-2 text-black'>95%+</span></h1>
+            </div>
+            <div className='px-10'>
+            <Explore></Explore>
             </div>
         </div>
     );
