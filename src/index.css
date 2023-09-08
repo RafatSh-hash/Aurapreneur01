@@ -14,3 +14,25 @@ body {
 
 
 }
+/* App.css */
+.container {
+    position: relative;
+    overflow: hidden;
+    /* background-image: radial-gradient(circle, #e4f6f6, #cfebfe, #f0edfe); */
+    /* width: 100vw; */
+    /* height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  .blob {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+  }
+  
