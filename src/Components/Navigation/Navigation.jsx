@@ -27,14 +27,7 @@ const Navigation = () => {
                     <div className="flex-shrink-0">
                         <img src={Logo} className="w-40" alt="" />
                     </div>
-                    {/* <div className="hidden sm:block md:hidden lg:block">
-                        <ul className="flex space-x-6">
-                        <li><a className="block py-2 font-semibold text-white w-32 my-3" href="/">Solutions</a></li>
-                        <li><a className="block py-2 font-semibold text-white w-32 my-3" href="#">Pricing</a></li>
-                        <li><a className="block py-2 font-semibold text-white w-32 my-3 " href="#">Resources</a></li>
-                           
-                        </ul>
-                    </div> */}
+
                     <div className="hidden sm:block md:hidden lg:block">
                         <ul className="flex space-x-6">
                             <li><a className="block py-2 font-semibold text-white w-32 my-3" href="/">Solutions</a>
