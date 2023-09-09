@@ -39,7 +39,7 @@ const Sell = () => {
                 </div>
                 <div className="relative lg:w-80 md:w-72 w-60 h-80 bg-cover bg-center bg-no-repeat hover:scale-105 transition-transform duration-500 my-5" style={{ backgroundImage: `url(${customer3})` }}>
                     <div className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold bg-black bg-opacity-80 opacity-0 hover:opacity-100 transition-opacity">
-                        <p className='text-center text-xl p-5'>Happy customers happy business</p>
+                        <p className='text-center text-xl p-5'>Happy customers happy business.</p>
                     </div>
                 </div>
 
