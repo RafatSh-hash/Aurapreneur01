@@ -8,6 +8,7 @@ import CheckOut from './CheckOut/CheckOut';
 import FlexiblePoint from './FlexiblePoint/FlexiblePoint';
 import FullFunnel from './FullFunnel/FullFunnel';
 import Streamline from './Streamline/Streamline';
+import Meet from './Meet/Meet';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <FlexiblePoint></FlexiblePoint>
             <FullFunnel></FullFunnel>
             <Streamline></Streamline>
+            <Meet></Meet>
         </div>
     );
 };
