@@ -6,6 +6,7 @@ import YourStore from './YourStore/YourStore';
 import Sell from './Sell/Sell';
 import CheckOut from './CheckOut/CheckOut';
 import FlexiblePoint from './FlexiblePoint/FlexiblePoint';
+import FullFunnel from './FullFunnel/FullFunnel';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Sell></Sell>
             <CheckOut></CheckOut>
             <FlexiblePoint></FlexiblePoint>
+            <FullFunnel></FullFunnel>
         </div>
     );
 };
