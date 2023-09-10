@@ -10,7 +10,7 @@ const CheckOut = () => {
             </div>
             <div className='w-full md:w-[70%] lg:w-[40%] p-2 md:p-3 lg:p-5'>
                 <p className='text-xl text-white text-center md:text-left lg:text-left my-5'>FAST, RELIABLE CHECKOUT</p>
-                <h1 className='text-2xl text-white my-5 md:text-3xl lg:text-5xl text-center md:text-left lg:text-left'>
+                <h1 className='text-2xl text-white my-5 md:text-3xl lg:text-4xl text-center md:text-left lg:text-left'>
                     The best-converting checkout on the planet
                 </h1>
                 <p className='text-lg text-center md:text-left lg:text-left'>

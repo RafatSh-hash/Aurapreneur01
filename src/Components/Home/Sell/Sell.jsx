@@ -14,12 +14,12 @@ const Sell = () => {
                         Sell to every buyer, everywhere
                     </h1>
                 </div>
-                <div className='w-96'>
-                    <p className='tex-sm my-5 text-center md:text-center lg:text-left'>
+                <div className=' w-full md:w-[50%] lg:w-[40%] p-2 md:p-3 lg:p-5 my-10'>
+                    <p className='tex-sm my-5 text-center md:text-center lg:text-left '>
                         Sell online, in person, and around the world with the marketing tools, social integrations, and sales channels you need to get your products in front of customers.
                     </p>
-                    <div className='flex justify-between items-center w-96 border-2 border-b-white border-t-[#0b1221] border-l-[#0b1221] border-r-[#0b1221] py-5'>
-                        <h1 className='text-xl font-semibold text-white'><a href="#">Start selling</a></h1>
+                    <div className='flex justify-between items-center border-2 border-b-white border-t-[#0b1221] border-l-[#0b1221] border-r-[#0b1221] py-5'>
+                        <h1 className='text-xl font-semibold text-white'><a href="#">Seize Every Sale</a></h1>
                         <div className='w-5 h-5'>
                             <img className='w-full h-full' src={arrow} alt="" />
                         </div>

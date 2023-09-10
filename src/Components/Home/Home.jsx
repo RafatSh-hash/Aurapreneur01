@@ -5,6 +5,7 @@ import Discover from './Discover/Discover';
 import YourStore from './YourStore/YourStore';
 import Sell from './Sell/Sell';
 import CheckOut from './CheckOut/CheckOut';
+import FlexiblePoint from './FlexiblePoint/FlexiblePoint';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <YourStore></YourStore>
             <Sell></Sell>
             <CheckOut></CheckOut>
+            <FlexiblePoint></FlexiblePoint>
         </div>
     );
 };
