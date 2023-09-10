@@ -4,6 +4,7 @@ import Banner from './Banner/Banner';
 import Discover from './Discover/Discover';
 import YourStore from './YourStore/YourStore';
 import Sell from './Sell/Sell';
+import CheckOut from './CheckOut/CheckOut';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Discover></Discover>
             <YourStore></YourStore>
             <Sell></Sell>
+            <CheckOut></CheckOut>
         </div>
     );
 };
