@@ -10,6 +10,7 @@ import FullFunnel from './FullFunnel/FullFunnel';
 import Streamline from './Streamline/Streamline';
 import Meet from './Meet/Meet';
 import BurningBeans from './BurningBeans/BurningBeans';
+import Help from './Help/Help';
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
             <Streamline></Streamline>
             <Meet></Meet>
             <BurningBeans></BurningBeans>
+            <Help></Help>
         </div>
     );
 };
