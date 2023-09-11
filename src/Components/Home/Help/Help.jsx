@@ -4,7 +4,7 @@ import arrow from "../../../assets/Icons/right.png"
 const Help = () => {
     return (
         <div>
-            <div className='my-10 bg-black p-5 md:p-14 lg:p-20'>
+            <div className='mt-10 bg-black p-5 md:p-14 lg:p-20'>
                 <h1 className='text-center text-xl text-[#54ec9b] font-semibold'>AURAPRENEUR</h1>
                 <h1 className='text-center text-4xl font-semibold my-5'>The help you need, <br />
                     when you need it</h1>
@@ -58,7 +58,7 @@ const Help = () => {
 
                 </div>
             </div>
-            <div className='w-full bg-[#53ef98] mx-auto flex flex-col justify-center items-center py-20 px-20'>
+            <div className='w-full bg-[#53ef98] mx-auto flex flex-col justify-center items-center py-20 px-20 mb-10'>
                 <h1 className='text-3xl md:text-4xl lg:text-6xl font-semibold text-center text-black mt-10'>Grow Your Business Here</h1>
                 <p className='text-xl text-center text-black'>
                     Whether you want to sell products down the street or around the world, we have all the tools you need.</p>

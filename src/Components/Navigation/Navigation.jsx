@@ -372,7 +372,7 @@ const Navigation = () => {
                     </div>
 
                     <div className="hidden sm:block  md:flex lg:flex items-center justify-center" >
-                        <button className="border-2 border-white transition-all duration-500 hover:scale-105 hover:bg-white text-black py-2 px-3 rounded-md" type="submit">
+                        <button className="border-2 border-white transition-all duration-500 hover:scale-105 hover:bg-white text-white hover:text-black py-2 px-3 rounded-md" type="submit">
                             <div className="flex justify-evenly items-center w-32">
                                 <div className="w-6 h-6 rounded-full me-2">
                                     <img src={signIn} className="w-full h-full" alt="" />
