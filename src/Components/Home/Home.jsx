@@ -9,6 +9,7 @@ import FlexiblePoint from './FlexiblePoint/FlexiblePoint';
 import FullFunnel from './FullFunnel/FullFunnel';
 import Streamline from './Streamline/Streamline';
 import Meet from './Meet/Meet';
+import BurningBeans from './BurningBeans/BurningBeans';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
             <FullFunnel></FullFunnel>
             <Streamline></Streamline>
             <Meet></Meet>
+            <BurningBeans></BurningBeans>
         </div>
     );
 };

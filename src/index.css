@@ -61,3 +61,20 @@ body {
     transform: translateX(80%);
   }
 }
+
+/* .card:hover .img {
+  transform: translateX(calc(50% + 80%)) scale(1.2);
+  transition: 0.5s;
+
+} */
+
+.Position {
+  transform: translateX(150%);
+  transition: 0.5s;
+
+}
+
+.card:hover .Position {
+  transform: translateX(0%);
+  transition: 0.5s;
+}
