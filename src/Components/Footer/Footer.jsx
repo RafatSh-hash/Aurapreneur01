@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from "../../assets/Logo.png"
 const Footer = () => {
     return (
-        <div className='mt-10'>
+        <div className='mt-10 md:mt-14 lg:mt-20'>
             <footer className="footer p-10 bg-[#0b1221] text-base-content ">
                 <nav>
                     <header className="footer-title">Services</header>
